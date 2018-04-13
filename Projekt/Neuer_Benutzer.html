@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>             <!-- Neuregistrierung -->
+<html>
+
+<head>
+    <title>Neuer Benutzer</title>
+    <meta charset="UTF-8">
+    <link href="Webtech.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <a href="Home.html">
+        <img src="Logo_der_Hochschule_Osnabrueck.png" alt="Hochschullogo" align="left">
+    </a>
+    <a href="Home.html" class="Link">Home</a>
+    <a href="Login.html" class="Link">Login</a>
+    <fieldset class="center" >
+        <legend>Neuer Benutzer</legend>
+        <form action="eingabedb.php" method="post">
+            <p>Name<br /><input name="name"> </p>
+            <p>Passwort<br /><input type="password" name="password"></p>
+            <p>
+            <input class="button" type="submit">
+            <input class="button" type="reset">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
